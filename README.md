@@ -1,0 +1,1 @@
+This repository captures the foundational concepts of the Java world—built from the heart, without frameworks or build tools. Every file reflects hands-on practice, deep curiosity, and a determined swim toward understanding the “why” behind the code.
