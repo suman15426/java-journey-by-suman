@@ -8,30 +8,29 @@ Instance varibles
 static varibales 
 
 
-static variables
+local variables 
 ================
-example 
 
+Declared inside methods, constructors, or blocks
+Exist only during the execution of that block
+Must be initialized before use—no default values
+Not accessible outside the method or block
+Stored in stack memory
 
-class Static{
-	 static int a= 25;
-	 static double d= 45.8;
-	 }
+Instance variables
+==================
 
-class StaticCall{
+- Declared inside a class but outside any method
+- Belong to the object (instance) of the class
+- Each object gets its own copy
+- Can have default values (e.g., 0 for int, null for objects)
+- Stored in heap memory
 
-public static void main(String args[]){
+Static variables
+================
 
-System.out.println(Static.a);
-System.out.println(Static.d);
-}
-}
- 
-
-
-
-
-
-
-
-
+Declared with the  keyword inside a class
+Shared across all instances of the class
+Belong to the class, not to any object
+Useful for constants or shared counters
+stored in method area 
